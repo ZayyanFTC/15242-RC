@@ -18,6 +18,9 @@ public class Autonomous1_DECODE_MeepMeep_2 {
                 .waitSeconds(3)
                 .turn(Math.toRadians(-60))
                 .strafeTo(new Vector2d(-34, 34))
+                .waitSeconds(3)
+                .turn(Math.toRadians(-120))
+                .strafeTo(new Vector2d(-16, 40))
                 .build());
         meepMeep.setBackground(MeepMeep.Background.FIELD_DECODE_OFFICIAL)
                 .setDarkMode(true)
